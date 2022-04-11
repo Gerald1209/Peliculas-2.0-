@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/clasificacionFragment">
+
+    <fragment
+        android:id="@+id/clasificacionFragment"
+        android:name="ni.edu.uca.peliculas20.fragment.ClasificacionFragment"
+        android:label="fragment_clasificacion"
+        tools:layout="@layout/fragment_clasificacion" >
+        <action
+            android:id="@+id/action_clasificacionFragment_to_agregarClasificacionFragment"
+            app:destination="@id/agregarClasificacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarClasificacionFragment"
+        android:name="ni.edu.uca.peliculas20.fragment.AgregarClasificacionFragment"
+        android:label="fragment_agregar_clasificacion"
+        tools:layout="@layout/fragment_agregar_clasificacion" >
+        <action
+            android:id="@+id/action_agregarClasificacionFragment_to_clasificacionFragment"
+            app:destination="@id/clasificacionFragment" />
+    </fragment>
+</navigation>

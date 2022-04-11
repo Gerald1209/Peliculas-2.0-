@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Peliculas 2.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_IntroNuevaClasificacion">Ingrese una nueva Clasificación</string>
+    <string name="txt_abreviacion">Abreviación</string>
+    <string name="txt_Descripcion">Descripción de la clasificación</string>
+    <string name="txt_Avreviacion">PG</string>
+    <string name="txt_IdClasf">1</string>
+    <string name="txt_DescripcionClasf">Contenido para toda la familia</string>
+    <string name="btn_addclasificacion">btn_addClasificacion</string>
+</resources>
